@@ -1,89 +1,99 @@
-export interface Location {
-  country: string;
-  province: string;
-}
-
-export interface WeightPct {
-  key: string;
-  label: string;
-  weightPct: number;
-}
-
-export interface MaxPoint {
-  key: string;
-  label: string;
-  max: number;
-}
-
-export interface Meta {
-  title: string;
-  locations: Location[];
-  weightsPct: WeightPct[];
-  maxPoints: MaxPoint[];
-}
-
-export interface WeightedScores {
+export interface ScoringWeights {
   economic: number;
   proPoor: number;
   greenGrowth: number;
-  systemic: number;
-  pwd: number;
   wee: number;
+  pwd: number;
+  systemic: number;
   quickWin: number;
 }
 
-export interface ValueChainRow {
-  valueChain: string;
-  weighted: WeightedScores;
-  total: number;
+export interface CriteriaScores {
+  economic: number;
+  proPoor: number;
+  greenGrowth: number;
+  wee: number;
+  pwd: number;
+  systemic: number;
+  quickWin: number;
 }
 
 export interface Scorecard {
+  id: string;
   country: string;
   province: string;
-  valueChains: ValueChainRow[];
+  valueChain: string;
+  criteria: CriteriaScores;
+}
+
+export interface ScorecardWithTotal extends Scorecard {
+  weighted: CriteriaScores;
+  total: number;
+  band: 'High' | 'Medium' | 'Lower';
 }
 
 export interface Intervention {
+  id: string;
   country: string;
   province: string;
   valueChain: string;
   title: string;
   summary: string;
+  tags: string[];
 }
 
-export interface OperationalRecommendation {
+export interface Recommendation {
+  id: string;
+  category: string;
   title: string;
-  detail: string;
+  bullets: string[];
+}
+
+export interface CrossCuttingTheme {
+  theme: string;
+  description: string;
+}
+
+export interface SharedChallenge {
+  title: string;
+  description: string;
+  countries: string[];
+  valueChains: string[];
 }
 
 export interface CrossCutting {
-  focus: string;
-  sampleChallenges: { title: string; gist: string }[];
+  sharedChallenge: SharedChallenge;
   designImplications: string[];
+  crossCuttingThemes: CrossCuttingTheme[];
 }
 
 export interface BasinData {
-  meta: Meta;
+  scoringWeights: ScoringWeights;
   scorecards: Scorecard[];
   interventions: Intervention[];
-  operationalRecommendations: OperationalRecommendation[];
+  recommendations: Recommendation[];
   crossCutting: CrossCutting;
 }
 
-export interface FlatRow {
-  country: string;
-  province: string;
-  valueChain: string;
-  weighted: WeightedScores;
-  total: number;
-  band: 'High' | 'Medium' | 'Lower';
-}
+export type CriterionKey = keyof CriteriaScores;
+export type SortField = 'total' | CriterionKey;
 
-export interface Filters {
-  country: string;
-  province: string;
-  valueChain: string;
-  query: string;
-  sortKey: string;
-}
+export const CRITERION_LABELS: Record<CriterionKey, string> = {
+  economic: 'Economic',
+  proPoor: 'Pro-poor',
+  greenGrowth: 'Green Growth',
+  wee: 'WEE',
+  pwd: 'PWD',
+  systemic: 'Systemic',
+  quickWin: 'Quick Win',
+};
+
+export const CRITERION_KEYS: CriterionKey[] = [
+  'economic',
+  'proPoor',
+  'greenGrowth',
+  'wee',
+  'pwd',
+  'systemic',
+  'quickWin',
+];
