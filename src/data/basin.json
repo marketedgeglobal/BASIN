@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "title": "BASIN iMSD Value Chain Scorecard",
+    "locations": [
+      { "country": "Zambia", "province": "Eastern" },
+      { "country": "Zambia", "province": "Lusaka" },
+      { "country": "Zambia", "province": "Copperbelt" },
+      { "country": "DRC", "province": "Kasai" },
+      { "country": "DRC", "province": "Tanganyika" },
+      { "country": "Tanzania", "province": "Mbeya" },
+      { "country": "Tanzania", "province": "Morogoro" }
+    ],
+    "weightsPct": [
+      { "key": "economic", "label": "Economic Opportunity", "weightPct": 25 },
+      { "key": "proPoor", "label": "Pro-Poor Impact", "weightPct": 20 },
+      { "key": "greenGrowth", "label": "Green Growth", "weightPct": 15 },
+      { "key": "systemic", "label": "Systemic Change", "weightPct": 15 },
+      { "key": "pwd", "label": "Persons with Disabilities", "weightPct": 10 },
+      { "key": "wee", "label": "Women's Economic Empowerment", "weightPct": 10 },
+      { "key": "quickWin", "label": "Quick Win Potential", "weightPct": 5 }
+    ],
+    "maxPoints": [
+      { "key": "economic", "label": "Economic Opportunity", "max": 25 },
+      { "key": "proPoor", "label": "Pro-Poor Impact", "max": 20 },
+      { "key": "greenGrowth", "label": "Green Growth", "max": 15 },
+      { "key": "systemic", "label": "Systemic Change", "max": 15 },
+      { "key": "pwd", "label": "Persons with Disabilities", "max": 10 },
+      { "key": "wee", "label": "Women's Economic Empowerment", "max": 10 },
+      { "key": "quickWin", "label": "Quick Win Potential", "max": 5 }
+    ]
+  },
+  "scorecards": [
+    {
+      "country": "Zambia",
+      "province": "Eastern",
+      "valueChains": [
+        {
+          "valueChain": "Soybean",
+          "weighted": {
+            "economic": 22,
+            "proPoor": 17,
+            "greenGrowth": 12,
+            "systemic": 13,
+            "pwd": 7,
+            "wee": 8,
+            "quickWin": 4
+          },
+          "total": 83
+        },
+        {
+          "valueChain": "Groundnuts",
+          "weighted": {
+            "economic": 20,
+            "proPoor": 18,
+            "greenGrowth": 11,
+            "systemic": 12,
+            "pwd": 8,
+            "wee": 9,
+            "quickWin": 4
+          },
+          "total": 82
+        },
+        {
+          "valueChain": "Maize",
+          "weighted": {
+            "economic": 19,
+            "proPoor": 16,
+            "greenGrowth": 10,
+            "systemic": 11,
+            "pwd": 7,
+            "wee": 7,
+            "quickWin": 3
+          },
+          "total": 73
+        },
+        {
+          "valueChain": "Cassava",
+          "weighted": {
+            "economic": 17,
+            "proPoor": 15,
+            "greenGrowth": 9,
+            "systemic": 10,
+            "pwd": 6,
+            "wee": 8,
+            "quickWin": 3
+          },
+          "total": 68
+        }
+      ]
+    },
+    {
+      "country": "Zambia",
+      "province": "Lusaka",
+      "valueChains": [
+        {
+          "valueChain": "Horticulture",
+          "weighted": {
+            "economic": 23,
+            "proPoor": 16,
+            "greenGrowth": 13,
+            "systemic": 14,
+            "pwd": 8,
+            "wee": 9,
+            "quickWin": 5
+          },
+          "total": 88
+        },
+        {
+          "valueChain": "Poultry",
+          "weighted": {
+            "economic": 21,
+            "proPoor": 15,
+            "greenGrowth": 11,
+            "systemic": 13,
+            "pwd": 7,
+            "wee": 8,
+            "quickWin": 4
+          },
+          "total": 79
+        },
+        {
+          "valueChain": "Dairy",
+          "weighted": {
+            "economic": 20,
+            "proPoor": 14,
+            "greenGrowth": 10,
+            "systemic": 12,
+            "pwd": 6,
+            "wee": 7,
+            "quickWin": 3
+          },
+          "total": 72
+        }
+      ]
+    },
+    {
+      "country": "Zambia",
+      "province": "Copperbelt",
+      "valueChains": [
+        {
+          "valueChain": "Mushrooms",
+          "weighted": {
+            "economic": 18,
+            "proPoor": 17,
+            "greenGrowth": 12,
+            "systemic": 10,
+            "pwd": 8,
+            "wee": 9,
+            "quickWin": 5
+          },
+          "total": 79
+        },
+        {
+          "valueChain": "Catfish Aquaculture",
+          "weighted": {
+            "economic": 20,
+            "proPoor": 16,
+            "greenGrowth": 13,
+            "systemic": 12,
+            "pwd": 7,
+            "wee": 7,
+            "quickWin": 4
+          },
+          "total": 79
+        },
+        {
+          "valueChain": "Honey",
+          "weighted": {
+            "economic": 16,
+            "proPoor": 15,
+            "greenGrowth": 14,
+            "systemic": 11,
+            "pwd": 7,
+            "wee": 8,
+            "quickWin": 3
+          },
+          "total": 74
+        }
+      ]
+    },
+    {
+      "country": "DRC",
+      "province": "Kasai",
+      "valueChains": [
+        {
+          "valueChain": "Cassava",
+          "weighted": {
+            "economic": 21,
+            "proPoor": 18,
+            "greenGrowth": 10,
+            "systemic": 12,
+            "pwd": 8,
+            "wee": 9,
+            "quickWin": 4
+          },
+          "total": 82
+        },
+        {
+          "valueChain": "Maize",
+          "weighted": {
+            "economic": 19,
+            "proPoor": 17,
+            "greenGrowth": 9,
+            "systemic": 11,
+            "pwd": 7,
+            "wee": 8,
+            "quickWin": 3
+          },
+          "total": 74
+        },
+        {
+          "valueChain": "Palm Oil",
+          "weighted": {
+            "economic": 22,
+            "proPoor": 14,
+            "greenGrowth": 8,
+            "systemic": 13,
+            "pwd": 6,
+            "wee": 7,
+            "quickWin": 4
+          },
+          "total": 74
+        },
+        {
+          "valueChain": "Groundnuts",
+          "weighted": {
+            "economic": 18,
+            "proPoor": 16,
+            "greenGrowth": 10,
+            "systemic": 10,
+            "pwd": 7,
+            "wee": 8,
+            "quickWin": 3
+          },
+          "total": 72
+        }
+      ]
+    },
+    {
+      "country": "DRC",
+      "province": "Tanganyika",
+      "valueChains": [
+        {
+          "valueChain": "Dried Fish",
+          "weighted": {
+            "economic": 23,
+            "proPoor": 18,
+            "greenGrowth": 11,
+            "systemic": 13,
+            "pwd": 7,
+            "wee": 9,
+            "quickWin": 5
+          },
+          "total": 86
+        },
+        {
+          "valueChain": "Beans",
+          "weighted": {
+            "economic": 19,
+            "proPoor": 17,
+            "greenGrowth": 12,
+            "systemic": 11,
+            "pwd": 8,
+            "wee": 9,
+            "quickWin": 4
+          },
+          "total": 80
+        },
+        {
+          "valueChain": "Cassava",
+          "weighted": {
+            "economic": 18,
+            "proPoor": 16,
+            "greenGrowth": 9,
+            "systemic": 10,
+            "pwd": 7,
+            "wee": 8,
+            "quickWin": 3
+          },
+          "total": 71
+        }
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "province": "Mbeya",
+      "valueChains": [
+        {
+          "valueChain": "Rice",
+          "weighted": {
+            "economic": 22,
+            "proPoor": 17,
+            "greenGrowth": 11,
+            "systemic": 13,
+            "pwd": 7,
+            "wee": 8,
+            "quickWin": 4
+          },
+          "total": 82
+        },
+        {
+          "valueChain": "Irish Potato",
+          "weighted": {
+            "economic": 20,
+            "proPoor": 16,
+            "greenGrowth": 12,
+            "systemic": 12,
+            "pwd": 8,
+            "wee": 9,
+            "quickWin": 5
+          },
+          "total": 82
+        },
+        {
+          "valueChain": "Sunflower",
+          "weighted": {
+            "economic": 18,
+            "proPoor": 15,
+            "greenGrowth": 13,
+            "systemic": 11,
+            "pwd": 7,
+            "wee": 7,
+            "quickWin": 3
+          },
+          "total": 74
+        },
+        {
+          "valueChain": "Maize",
+          "weighted": {
+            "economic": 17,
+            "proPoor": 14,
+            "greenGrowth": 9,
+            "systemic": 10,
+            "pwd": 6,
+            "wee": 7,
+            "quickWin": 3
+          },
+          "total": 66
+        }
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "province": "Morogoro",
+      "valueChains": [
+        {
+          "valueChain": "Horticulture",
+          "weighted": {
+            "economic": 24,
+            "proPoor": 17,
+            "greenGrowth": 13,
+            "systemic": 14,
+            "pwd": 8,
+            "wee": 9,
+            "quickWin": 5
+          },
+          "total": 90
+        },
+        {
+          "valueChain": "Sesame",
+          "weighted": {
+            "economic": 21,
+            "proPoor": 16,
+            "greenGrowth": 12,
+            "systemic": 13,
+            "pwd": 7,
+            "wee": 8,
+            "quickWin": 4
+          },
+          "total": 81
+        },
+        {
+          "valueChain": "Cashew",
+          "weighted": {
+            "economic": 22,
+            "proPoor": 14,
+            "greenGrowth": 11,
+            "systemic": 12,
+            "pwd": 6,
+            "wee": 7,
+            "quickWin": 4
+          },
+          "total": 76
+        },
+        {
+          "valueChain": "Rice",
+          "weighted": {
+            "economic": 19,
+            "proPoor": 15,
+            "greenGrowth": 10,
+            "systemic": 11,
+            "pwd": 7,
+            "wee": 7,
+            "quickWin": 3
+          },
+          "total": 72
+        }
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "country": "Zambia",
+      "province": "Eastern",
+      "valueChain": "Soybean",
+      "title": "Strengthening Soybean Aggregation Hubs",
+      "summary": "Support the establishment of farmer-owned aggregation centres in Eastern Province to reduce post-harvest losses and improve market access. Link hubs to certified processors to unlock premium pricing."
+    },
+    {
+      "country": "Zambia",
+      "province": "Eastern",
+      "valueChain": "Groundnuts",
+      "title": "Aflatoxin Management in Groundnut Value Chain",
+      "summary": "Facilitate adoption of improved drying and storage practices targeting aflatoxin reduction. Work with standards bodies to develop certification pathways for smallholders accessing export markets."
+    },
+    {
+      "country": "Zambia",
+      "province": "Eastern",
+      "valueChain": "Maize",
+      "title": "Climate-Smart Maize Production Support",
+      "summary": "Promote conservation agriculture techniques and drought-tolerant varieties. Partner with agro-dealers to ensure affordable input supply bundles reach remote smallholders."
+    },
+    {
+      "country": "Zambia",
+      "province": "Lusaka",
+      "valueChain": "Horticulture",
+      "title": "Urban-Peri-Urban Fresh Produce Corridors",
+      "summary": "Develop cold-chain linkages between peri-urban smallholder growers and Lusaka retail and hospitality buyers. Introduce digital traceability to meet food safety requirements."
+    },
+    {
+      "country": "Zambia",
+      "province": "Lusaka",
+      "valueChain": "Poultry",
+      "title": "Poultry Input Market Systems Deepening",
+      "summary": "Address the high cost and limited availability of day-old chicks and feed in peri-urban Lusaka. Facilitate private sector investment in decentralised hatcheries and feed mills."
+    },
+    {
+      "country": "Zambia",
+      "province": "Copperbelt",
+      "valueChain": "Mushrooms",
+      "title": "Mushroom Enterprise Scale-Up for Urban Markets",
+      "summary": "Support women and PWD entrepreneurs to formalise mushroom growing enterprises and access Copperbelt urban retail channels. Provide business development services and packaging improvements."
+    },
+    {
+      "country": "Zambia",
+      "province": "Copperbelt",
+      "valueChain": "Catfish Aquaculture",
+      "title": "Catfish Cage Farming Expansion",
+      "summary": "Facilitate access to affordable cage-farming technology and quality fingerlings for smallholders on the Kafue and other water bodies. Strengthen trader linkages to processing facilities."
+    },
+    {
+      "country": "DRC",
+      "province": "Kasai",
+      "valueChain": "Cassava",
+      "title": "Cassava Processing and Quality Upgrading",
+      "summary": "Introduce cassava flour milling and quality standards in Kasai to reduce spoilage and create value-added products. Facilitate linkages to urban bakery and institutional buyers."
+    },
+    {
+      "country": "DRC",
+      "province": "Kasai",
+      "valueChain": "Palm Oil",
+      "title": "Sustainable Palm Oil Sector Development",
+      "summary": "Work with smallholder producers to improve palm oil processing efficiency and environmental practices. Establish traceability mechanisms to meet regional buyer sustainability requirements."
+    },
+    {
+      "country": "DRC",
+      "province": "Tanganyika",
+      "valueChain": "Dried Fish",
+      "title": "Improved Drying Technology for Dried Fish",
+      "summary": "Introduce solar tent dryers to reduce post-harvest losses and improve quality in the Lake Tanganyika dried fish value chain. Strengthen fish trader cooperatives to negotiate better prices."
+    },
+    {
+      "country": "DRC",
+      "province": "Tanganyika",
+      "valueChain": "Beans",
+      "title": "Bean Market Information and Aggregation",
+      "summary": "Deploy mobile-based market information systems for bean producers in Tanganyika. Facilitate collective marketing through farmer groups to reduce dependency on exploitative middlemen."
+    },
+    {
+      "country": "Tanzania",
+      "province": "Mbeya",
+      "valueChain": "Rice",
+      "title": "Mbeya Irrigated Rice Productivity Enhancement",
+      "summary": "Support water user associations to improve irrigation scheme management and rehabilitate canals. Introduce System of Rice Intensification (SRI) practices to boost yields and water use efficiency."
+    },
+    {
+      "country": "Tanzania",
+      "province": "Mbeya",
+      "valueChain": "Irish Potato",
+      "title": "Certified Seed Potato Multiplication Network",
+      "summary": "Establish a decentralised network of certified seed potato multipliers in Mbeya highlands to reduce reliance on expensive imported seed. Build linkages to agronomic advisory services."
+    },
+    {
+      "country": "Tanzania",
+      "province": "Morogoro",
+      "valueChain": "Horticulture",
+      "title": "Export Horticulture Standards and Certification",
+      "summary": "Support smallholder horticultural farmers in Morogoro to meet GlobalGAP certification requirements for export markets. Facilitate access to compliance financing and technical assistance."
+    },
+    {
+      "country": "Tanzania",
+      "province": "Morogoro",
+      "valueChain": "Sesame",
+      "title": "Sesame Organic Certification and Export Linkages",
+      "summary": "Facilitate organic certification for sesame producers and establish direct trade relationships with European organic buyers. Strengthen farmer organisations to manage collective export logistics."
+    },
+    {
+      "country": "Tanzania",
+      "province": "Morogoro",
+      "valueChain": "Cashew",
+      "title": "Cashew Processing Investment Facilitation",
+      "summary": "Attract private sector investment in cashew processing facilities in Morogoro to add value locally and improve farmgate prices. Support raw cashew quality improvement at production level."
+    }
+  ],
+  "operationalRecommendations": [
+    {
+      "title": "Prioritise High-Scoring Value Chains for Initial Programming",
+      "detail": "Concentrate early BASIN investments on value chains scoring 75 or above (High band) to demonstrate quick wins and generate learning. These chains offer the strongest confluence of economic opportunity, pro-poor impact, and systemic change potential."
+    },
+    {
+      "title": "Apply a Gender-Disaggregated Lens to All Interventions",
+      "detail": "Ensure intervention designs explicitly identify how women and men participate differently along each value chain. Use WEE scoring to prioritise entry points where targeted support can shift gender dynamics in markets."
+    },
+    {
+      "title": "Integrate PWD Inclusion from Design Stage",
+      "detail": "Disability-inclusive programming should not be an afterthought. Use PWD criterion scores to identify value chains with existing inclusion barriers and design specific facilitation strategies to lower them."
+    },
+    {
+      "title": "Leverage Systemic Change Anchor Points",
+      "detail": "For value chains with strong systemic change scores, identify the 'crowding-in' or 'diffusion' levers that can catalyse broader market change beyond direct beneficiaries. Document these leverage points in intervention designs."
+    },
+    {
+      "title": "Build Adaptive Management into All Programmes",
+      "detail": "Given the dynamic nature of market systems, establish quarterly pause-and-reflect processes using real-time monitoring data. Use these sessions to adjust facilitation strategies as market conditions and partner capacities evolve."
+    },
+    {
+      "title": "Connect Green Growth to Commercial Value",
+      "detail": "In value chains with high green growth potential, ensure environmental co-benefits are framed as commercial opportunities (e.g., premium markets, cost reduction) rather than compliance burdens. This increases private sector uptake."
+    },
+    {
+      "title": "Sequence Investments Across Provinces Strategically",
+      "detail": "Use the scorecard data to sequence investments across provinces, starting with easier operating environments and using learning to inform harder contexts. Share cross-country lessons systematically."
+    }
+  ],
+  "crossCutting": {
+    "focus": "BASIN's inclusive market systems development approach recognises that economic growth alone is insufficient. All value chain interventions must deliberately address the structural barriers that exclude women, persons with disabilities, and the most marginalised smallholders from participating in and benefiting from market growth. Cross-cutting themes of gender equality, social inclusion, and environmental sustainability are integrated into every intervention design, monitoring framework, and partnership approach.",
+    "sampleChallenges": [
+      {
+        "title": "Gender-Based Market Exclusion",
+        "gist": "Women often face systematic exclusion from high-value nodes of value chains — including access to finance, certified inputs, and formal contracts — due to discriminatory social norms and legal barriers. BASIN interventions must actively address these structural constraints rather than assuming market growth will trickle down."
+      },
+      {
+        "title": "Physical Accessibility Barriers for PWDs",
+        "gist": "Persons with disabilities frequently face infrastructure and attitudinal barriers that prevent participation in agricultural markets. Input outlets, market spaces, and financial service points are often physically inaccessible, while social stigma limits entry into enterprise roles."
+      },
+      {
+        "title": "Climate Vulnerability of Smallholder Systems",
+        "gist": "Increasing climate variability is eroding the productivity base for many smallholder-dependent value chains. Rising temperatures, erratic rainfall, and more frequent extreme weather events disproportionately affect poor and marginalised farmers with limited adaptive capacity."
+      },
+      {
+        "title": "Power Asymmetries in Market Relationships",
+        "gist": "Smallholders frequently operate in markets characterised by significant power asymmetries — limited market information, weak collective action, and dependence on a small number of buyers. These dynamics depress farm-gate prices and reduce the share of value accruing to producers."
+      },
+      {
+        "title": "Limited Access to Financial Services",
+        "gist": "Lack of collateral, credit history, and proximity to financial institutions restricts smallholder access to working capital and investment finance. This prevents adoption of productivity-enhancing technologies and limits ability to absorb shocks."
+      }
+    ],
+    "designImplications": [
+      "Conduct gender analyses at the outset of each value chain intervention to map women's and men's roles, constraints, and opportunities.",
+      "Engage organisations of persons with disabilities as programme partners to co-design inclusive approaches.",
+      "Embed climate risk assessments into value chain selection and intervention design processes.",
+      "Use participatory market system mapping to surface power dynamics and identify systemic leverage points.",
+      "Facilitate linkages between smallholder groups and inclusive finance providers, including digital financial services.",
+      "Establish inclusion-sensitive M&E frameworks that disaggregate results by gender, disability status, and wealth quintile.",
+      "Invest in capacity building for local facilitation organisations to sustain inclusive market systems approaches beyond project timelines.",
+      "Ensure knowledge management systems capture and share lessons on what works for inclusion across value chains and geographies."
+    ]
+  }
+}
