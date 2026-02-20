@@ -152,7 +152,7 @@
       "province": "Kratie",
       "valueChain": "Vegetables",
       "title": "Vegetable Market Linkage Program – Kratie",
-      "summary": "Establish direct buyer-farmer linkages between smallholder vegetable growers in Kratie province and urban supermarkets and processors in Phnom Penh. This includes training on GAP standards, post-harvest handling infrastructure, and digital market information services to reduce price volatility.",
+      "summary": "The intervention builds structured buyer-farmer relationships between smallholder vegetable growers in Kratie and urban supermarkets and processors in Phnom Penh. It combines GAP training, improved post-harvest handling, and basic aggregation protocols so producers can meet quality and consistency expectations. By pairing this with digital market information, farmers can negotiate from better price visibility and reduce exposure to sudden demand shifts.",
       "tags": ["market linkage", "GAP", "post-harvest", "digital"]
     },
     {
@@ -161,7 +161,7 @@
       "province": "Kratie",
       "valueChain": "Vegetables",
       "title": "Climate-Smart Irrigation Support for Smallholders",
-      "summary": "Support smallholder vegetable farmers in Kratie with climate-resilient drip irrigation and water harvesting technologies, reducing dependence on erratic rainfall and lowering production costs. Targeting women-led households as priority beneficiaries.",
+      "summary": "This intervention supports climate-resilient drip irrigation and water-harvesting systems for smallholder vegetable farmers in Kratie. It is designed to stabilize production cycles under irregular rainfall while reducing input waste and seasonal losses. Women-led households are prioritized so resilience investments also improve equity in productive asset access.",
       "tags": ["climate-smart", "irrigation", "women", "resilience"]
     },
     {
@@ -170,7 +170,7 @@
       "province": "Kratie",
       "valueChain": "Cashews",
       "title": "Cashew Value Addition and Processing Hub – Kratie",
-      "summary": "Develop a community-based cashew processing facility in Kratie to move up the value chain from raw nut exports to processed kernels. Includes technology transfer, quality certification, and export market development targeting premium buyers in Japan and Europe.",
+      "summary": "The program develops a community-based cashew processing hub in Kratie to shift from raw nut sales toward higher-margin kernel processing. It includes technology transfer, operational coaching, and quality management systems needed for consistent output. Certification and buyer development with premium markets in Japan and Europe are used to improve price realization and local value capture.",
       "tags": ["processing", "value addition", "export", "certification"]
     },
     {
@@ -179,7 +179,7 @@
       "province": "Kratie",
       "valueChain": "Livestock",
       "title": "Integrated Livestock Health and Productivity Program",
-      "summary": "Scale up veterinary services, animal nutrition support, and breed improvement for cattle and pig farmers in Kratie. Program focuses on disease prevention, feed efficiency, and connecting farmers to formal slaughterhouses with better pricing mechanisms.",
+      "summary": "This intervention scales veterinary outreach, nutrition support, and breed improvement for cattle and pig farmers in Kratie. The model emphasizes preventive health and feed efficiency to reduce mortality and improve weight gain predictability. It also links producers to formal slaughterhouse channels where pricing is clearer and quality incentives are more consistent.",
       "tags": ["veterinary", "breed improvement", "animal health", "market access"]
     },
     {
@@ -188,7 +188,7 @@
       "province": "Champasak",
       "valueChain": "Vegetables",
       "title": "Safe Vegetable Supply Chain Development – Champasak",
-      "summary": "Develop certified safe vegetable supply chains from Champasak to domestic urban markets and southern Thailand. Includes pesticide reduction training, traceability systems, and collective marketing arrangements for smallholder producer groups.",
+      "summary": "The intervention develops certified safe-vegetable supply routes from Champasak to domestic urban markets and southern Thailand. It combines pesticide risk reduction with practical traceability so buyers can verify compliance and origin. Collective marketing arrangements help producer groups aggregate volume and negotiate more stable terms.",
       "tags": ["safe vegetables", "traceability", "collective marketing", "Thailand export"]
     },
     {
@@ -197,7 +197,7 @@
       "province": "Champasak",
       "valueChain": "Cashews",
       "title": "Cashew Plantation Rehabilitation and Certification – Champasak",
-      "summary": "Rehabilitate aging cashew plantations in Champasak through improved agronomic practices, intercropping with shade trees, and organic certification pathways. Facilitates premium price premiums and supports biodiversity conservation objectives.",
+      "summary": "This program rehabilitates aging cashew plantations in Champasak through improved pruning, soil management, and orchard renewal practices. Intercropping with shade trees improves microclimate resilience while diversifying ecological and income outcomes. Organic certification pathways are integrated to position farmers for premium markets and stronger biodiversity co-benefits.",
       "tags": ["rehabilitation", "organic", "intercropping", "biodiversity"]
     },
     {
@@ -206,7 +206,7 @@
       "province": "Champasak",
       "valueChain": "Bananas",
       "title": "Sustainable Banana Production and Export Channels",
-      "summary": "Transition banana production in Champasak from contract farming under Chinese operators to independent smallholder models with improved environmental standards. Develop alternative export channels to Vietnam and Thailand with better farmer terms.",
+      "summary": "The intervention supports a transition from externally controlled contract farming toward more independent smallholder banana business models in Champasak. It introduces improved environmental standards for soil, water, and input management to reduce long-term production risk. Alternative export channels to Vietnam and Thailand are developed to improve farmer terms and reduce single-buyer dependence.",
       "tags": ["sustainable production", "export diversification", "smallholder", "environment"]
     },
     {
@@ -215,7 +215,7 @@
       "province": "An Giang",
       "valueChain": "Vegetables",
       "title": "VietGAP Vegetable Certification Program – An Giang",
-      "summary": "Scale up VietGAP certification for vegetable producers in An Giang, targeting supermarket supply chains and export markets in ASEAN. Includes women farmer training centres, laboratory testing support, and digital certification management.",
+      "summary": "This intervention scales VietGAP certification among vegetable producers in An Giang to meet supermarket and ASEAN export requirements. It combines hands-on compliance support with laboratory testing and digital certification management to reduce administrative bottlenecks. Women-focused training centers are embedded to increase participation in higher-value formal markets.",
       "tags": ["VietGAP", "certification", "women empowerment", "ASEAN export"]
     },
     {
@@ -224,7 +224,7 @@
       "province": "An Giang",
       "valueChain": "Premium Rice",
       "title": "Premium Rice Brand Development and Market Access",
-      "summary": "Develop a regional premium rice brand for An Giang origin varieties (ST25, Jasmine) targeting high-value domestic and export markets. Includes IP protection, packaging innovation, direct retail partnerships, and smallholder cooperative strengthening.",
+      "summary": "The program develops a regional premium rice brand around An Giang origin varieties such as ST25 and Jasmine for domestic and export markets. It links branding with IP protection, packaging upgrades, and direct retail partnerships to secure market differentiation. Cooperative strengthening ensures smallholders can meet quality commitments and participate in brand value creation.",
       "tags": ["branding", "ST25", "cooperative", "IP protection", "export"]
     },
     {
@@ -233,7 +233,7 @@
       "province": "An Giang",
       "valueChain": "Premium Rice",
       "title": "Sustainable Rice Intensification and Emission Reduction",
-      "summary": "Scale alternate wetting and drying (AWD) practices and low-emission rice varieties across An Giang paddies, contributing to both carbon reduction and cost savings for farmers. Links with voluntary carbon market mechanisms for additional farmer income.",
+      "summary": "This intervention scales alternate wetting and drying (AWD) and low-emission rice varieties across An Giang production zones. The approach reduces water use and methane emissions while lowering production costs for participating farmers. It also pilots links to voluntary carbon market mechanisms to diversify farm income and incentivize sustained practice adoption.",
       "tags": ["AWD", "carbon market", "emission reduction", "climate finance"]
     },
     {
@@ -242,7 +242,7 @@
       "province": "An Giang",
       "valueChain": "Shrimp",
       "title": "Integrated Mangrove-Shrimp Aquaculture Model",
-      "summary": "Promote integrated mangrove-shrimp aquaculture in An Giang coastal zones to improve environmental sustainability and access premium eco-certified markets. Includes ASC certification pathways, mangrove restoration, and community-based management structures.",
+      "summary": "The model promotes integrated mangrove-shrimp aquaculture in An Giang coastal zones to improve ecological performance and system resilience. It combines ASC certification pathways with mangrove restoration and local stewardship mechanisms that support long-term productivity. Access to eco-certified premium markets is used as the commercial incentive for adoption and compliance.",
       "tags": ["mangrove", "ASC certification", "aquaculture", "eco-premium"]
     }
   ],
@@ -251,70 +251,54 @@
       "id": "rec-1",
       "category": "Market Systems",
       "title": "Strengthen Buyer-Farmer Linkages Across All Value Chains",
-      "bullets": [
-        "Map and engage anchor buyers in each value chain willing to commit to structured sourcing arrangements with smallholders",
-        "Facilitate multi-year supply agreements with quality-linked price premiums to incentivise farmer investment",
-        "Support digital market information platforms to provide real-time price transparency to farmers and producer groups",
-        "Establish grievance mechanisms for contract enforcement and dispute resolution"
+      "narrative": [
+        "Programs should prioritize anchor buyers that can commit to predictable sourcing from smallholders across seasons. Multi-year commercial arrangements with transparent quality standards and dispute pathways can reduce side-selling and improve confidence for both parties.",
+        "Digital market information should be integrated into linkage models so producer groups can track prices, delivery windows, and buyer demand in real time. This improves negotiation quality and helps farmers plan production around market signals rather than speculation."
       ]
     },
     {
       "id": "rec-2",
       "category": "Finance & Investment",
       "title": "Expand Access to Value Chain Finance for Smallholders",
-      "bullets": [
-        "Partner with MFIs and commercial banks to develop value chain finance products linked to purchase orders",
-        "Pilot warehouse receipt financing for commodities including cashews and premium rice",
-        "Design blended finance instruments to crowd in private sector investment in processing infrastructure",
-        "Integrate financial literacy training into all producer group support activities"
+      "narrative": [
+        "Financial products should be tied to real value-chain transactions such as purchase orders, off-take agreements, and inventory flows. This lowers lender risk while giving farmers and SMEs more practical working-capital options at critical production stages.",
+        "A blended approach combining warehouse receipt pilots, bank partnerships, and financial capability support can improve repayment performance and scale. Over time, this creates stronger pathways for private investment into local processing and logistics infrastructure."
       ]
     },
     {
       "id": "rec-3",
       "category": "Women's Economic Empowerment",
       "title": "Mainstream WEE Across All Value Chain Interventions",
-      "bullets": [
-        "Conduct gender analysis for each value chain to identify key barriers and opportunities for women",
-        "Set minimum 40% women participation targets for all training and capacity building activities",
-        "Prioritise women-led producer groups and cooperatives in market linkage programs",
-        "Address time poverty constraints by co-locating services and providing childcare support at events",
-        "Track and report gender-disaggregated data across all outcome indicators"
+      "narrative": [
+        "WEE should move beyond participation counts and be embedded in commercial roles, leadership pathways, and control over productive assets. Value-chain diagnostics need to identify where women face structural barriers in market access, finance, and service uptake.",
+        "Operational delivery should include practical enablers such as flexible schedules, local childcare support, and women-led business networks. Tracking gender-disaggregated outcomes consistently helps teams adjust interventions based on evidence rather than assumptions."
       ]
     },
     {
       "id": "rec-4",
       "category": "Green Growth",
       "title": "Integrate Climate-Smart Agriculture and Environmental Standards",
-      "bullets": [
-        "Adopt climate risk screening for all new interventions and investments",
-        "Scale proven CSA practices including conservation tillage, integrated pest management, and water-efficient irrigation",
-        "Develop environmental compliance roadmaps for value chains with significant environmental footprints",
-        "Connect farmers to climate finance mechanisms including carbon credits and green bonds",
-        "Embed biodiversity considerations into certification and standards work"
+      "narrative": [
+        "Climate and environmental compliance should be treated as core competitiveness factors rather than separate safeguards. Early risk screening and practical roadmaps can help farmers and firms adopt climate-smart practices without disrupting market participation.",
+        "Linking producers to climate finance, carbon-related incentives, and biodiversity-aligned standards improves the business case for sustained adoption. This is especially important for value chains with high water, land, or emissions footprints."
       ]
     },
     {
       "id": "rec-5",
       "category": "Systemic Change",
       "title": "Engage Government and Policy for Enabling Environment",
-      "bullets": [
-        "Work with provincial governments to streamline business registration and certification processes",
-        "Advocate for improved rural infrastructure investment in roads, electricity, and telecommunications",
-        "Support development of national quality standards for priority commodities",
-        "Build government capacity for market monitoring and agricultural data systems",
-        "Engage national trade policy processes to improve export facilitation for smallholder products"
+      "narrative": [
+        "Systemic results depend on policy and institutional improvements that lower transaction costs for farmers, SMEs, and buyers. Provincial and national actors should be engaged around certification efficiency, commodity standards, and rural service delivery.",
+        "Programs can strengthen sustainability by co-investing in government data systems and market monitoring capacities that outlast project cycles. Coordinated policy dialogue also helps align export facilitation measures with smallholder inclusion objectives."
       ]
     },
     {
       "id": "rec-6",
       "category": "Disability Inclusion",
       "title": "Ensure Persons with Disabilities are Not Left Behind",
-      "bullets": [
-        "Conduct disability inclusion assessments for each target area and value chain",
-        "Adapt training materials and delivery methods to be accessible for persons with disabilities",
-        "Partner with DPOs (Disabled Persons Organisations) to reach and include PWD farmers",
-        "Track participation and outcomes for persons with disabilities as a disaggregated group",
-        "Ensure physical accessibility of any project-supported facilities and marketplaces"
+      "narrative": [
+        "Disability inclusion should be integrated from design through implementation, not added at reporting stage. Context-specific inclusion assessments can identify the most relevant participation barriers by geography, value chain role, and service type.",
+        "Accessible training formats, partnerships with DPOs, and inclusive infrastructure standards are practical entry points that improve real participation. Consistent disaggregated tracking is needed to verify that inclusion efforts translate into economic outcomes."
       ]
     }
   ],

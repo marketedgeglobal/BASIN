@@ -46,7 +46,7 @@ export interface Recommendation {
   id: string;
   category: string;
   title: string;
-  bullets: string[];
+  narrative: string[];
 }
 
 export interface CrossCuttingTheme {
