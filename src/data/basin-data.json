@@ -1,0 +1,353 @@
+{
+  "scoringWeights": {
+    "economic": 0.25,
+    "proPoor": 0.20,
+    "greenGrowth": 0.20,
+    "wee": 0.10,
+    "pwd": 0.05,
+    "systemic": 0.10,
+    "quickWin": 0.10
+  },
+  "scorecards": [
+    {
+      "id": "kh-kr-veg",
+      "country": "Cambodia",
+      "province": "Kratie",
+      "valueChain": "Vegetables",
+      "criteria": {
+        "economic": 82,
+        "proPoor": 78,
+        "greenGrowth": 65,
+        "wee": 80,
+        "pwd": 55,
+        "systemic": 70,
+        "quickWin": 85
+      }
+    },
+    {
+      "id": "kh-kr-cash",
+      "country": "Cambodia",
+      "province": "Kratie",
+      "valueChain": "Cashews",
+      "criteria": {
+        "economic": 75,
+        "proPoor": 72,
+        "greenGrowth": 80,
+        "wee": 65,
+        "pwd": 50,
+        "systemic": 78,
+        "quickWin": 60
+      }
+    },
+    {
+      "id": "kh-kr-live",
+      "country": "Cambodia",
+      "province": "Kratie",
+      "valueChain": "Livestock",
+      "criteria": {
+        "economic": 68,
+        "proPoor": 80,
+        "greenGrowth": 55,
+        "wee": 62,
+        "pwd": 45,
+        "systemic": 65,
+        "quickWin": 72
+      }
+    },
+    {
+      "id": "la-ch-veg",
+      "country": "Laos",
+      "province": "Champasak",
+      "valueChain": "Vegetables",
+      "criteria": {
+        "economic": 70,
+        "proPoor": 75,
+        "greenGrowth": 72,
+        "wee": 78,
+        "pwd": 60,
+        "systemic": 68,
+        "quickWin": 80
+      }
+    },
+    {
+      "id": "la-ch-cash",
+      "country": "Laos",
+      "province": "Champasak",
+      "valueChain": "Cashews",
+      "criteria": {
+        "economic": 88,
+        "proPoor": 65,
+        "greenGrowth": 85,
+        "wee": 60,
+        "pwd": 40,
+        "systemic": 82,
+        "quickWin": 55
+      }
+    },
+    {
+      "id": "la-ch-ban",
+      "country": "Laos",
+      "province": "Champasak",
+      "valueChain": "Bananas",
+      "criteria": {
+        "economic": 80,
+        "proPoor": 70,
+        "greenGrowth": 60,
+        "wee": 55,
+        "pwd": 50,
+        "systemic": 75,
+        "quickWin": 78
+      }
+    },
+    {
+      "id": "vn-ag-veg",
+      "country": "Vietnam",
+      "province": "An Giang",
+      "valueChain": "Vegetables",
+      "criteria": {
+        "economic": 78,
+        "proPoor": 82,
+        "greenGrowth": 70,
+        "wee": 85,
+        "pwd": 65,
+        "systemic": 72,
+        "quickWin": 88
+      }
+    },
+    {
+      "id": "vn-ag-rice",
+      "country": "Vietnam",
+      "province": "An Giang",
+      "valueChain": "Premium Rice",
+      "criteria": {
+        "economic": 92,
+        "proPoor": 75,
+        "greenGrowth": 78,
+        "wee": 70,
+        "pwd": 55,
+        "systemic": 88,
+        "quickWin": 65
+      }
+    },
+    {
+      "id": "vn-ag-shrimp",
+      "country": "Vietnam",
+      "province": "An Giang",
+      "valueChain": "Shrimp",
+      "criteria": {
+        "economic": 85,
+        "proPoor": 68,
+        "greenGrowth": 62,
+        "wee": 60,
+        "pwd": 45,
+        "systemic": 78,
+        "quickWin": 70
+      }
+    }
+  ],
+  "interventions": [
+    {
+      "id": "int-kh-kr-veg-1",
+      "country": "Cambodia",
+      "province": "Kratie",
+      "valueChain": "Vegetables",
+      "title": "Vegetable Market Linkage Program – Kratie",
+      "summary": "Establish direct buyer-farmer linkages between smallholder vegetable growers in Kratie province and urban supermarkets and processors in Phnom Penh. This includes training on GAP standards, post-harvest handling infrastructure, and digital market information services to reduce price volatility.",
+      "tags": ["market linkage", "GAP", "post-harvest", "digital"]
+    },
+    {
+      "id": "int-kh-kr-veg-2",
+      "country": "Cambodia",
+      "province": "Kratie",
+      "valueChain": "Vegetables",
+      "title": "Climate-Smart Irrigation Support for Smallholders",
+      "summary": "Support smallholder vegetable farmers in Kratie with climate-resilient drip irrigation and water harvesting technologies, reducing dependence on erratic rainfall and lowering production costs. Targeting women-led households as priority beneficiaries.",
+      "tags": ["climate-smart", "irrigation", "women", "resilience"]
+    },
+    {
+      "id": "int-kh-kr-cash-1",
+      "country": "Cambodia",
+      "province": "Kratie",
+      "valueChain": "Cashews",
+      "title": "Cashew Value Addition and Processing Hub – Kratie",
+      "summary": "Develop a community-based cashew processing facility in Kratie to move up the value chain from raw nut exports to processed kernels. Includes technology transfer, quality certification, and export market development targeting premium buyers in Japan and Europe.",
+      "tags": ["processing", "value addition", "export", "certification"]
+    },
+    {
+      "id": "int-kh-kr-live-1",
+      "country": "Cambodia",
+      "province": "Kratie",
+      "valueChain": "Livestock",
+      "title": "Integrated Livestock Health and Productivity Program",
+      "summary": "Scale up veterinary services, animal nutrition support, and breed improvement for cattle and pig farmers in Kratie. Program focuses on disease prevention, feed efficiency, and connecting farmers to formal slaughterhouses with better pricing mechanisms.",
+      "tags": ["veterinary", "breed improvement", "animal health", "market access"]
+    },
+    {
+      "id": "int-la-ch-veg-1",
+      "country": "Laos",
+      "province": "Champasak",
+      "valueChain": "Vegetables",
+      "title": "Safe Vegetable Supply Chain Development – Champasak",
+      "summary": "Develop certified safe vegetable supply chains from Champasak to domestic urban markets and southern Thailand. Includes pesticide reduction training, traceability systems, and collective marketing arrangements for smallholder producer groups.",
+      "tags": ["safe vegetables", "traceability", "collective marketing", "Thailand export"]
+    },
+    {
+      "id": "int-la-ch-cash-1",
+      "country": "Laos",
+      "province": "Champasak",
+      "valueChain": "Cashews",
+      "title": "Cashew Plantation Rehabilitation and Certification – Champasak",
+      "summary": "Rehabilitate aging cashew plantations in Champasak through improved agronomic practices, intercropping with shade trees, and organic certification pathways. Facilitates premium price premiums and supports biodiversity conservation objectives.",
+      "tags": ["rehabilitation", "organic", "intercropping", "biodiversity"]
+    },
+    {
+      "id": "int-la-ch-ban-1",
+      "country": "Laos",
+      "province": "Champasak",
+      "valueChain": "Bananas",
+      "title": "Sustainable Banana Production and Export Channels",
+      "summary": "Transition banana production in Champasak from contract farming under Chinese operators to independent smallholder models with improved environmental standards. Develop alternative export channels to Vietnam and Thailand with better farmer terms.",
+      "tags": ["sustainable production", "export diversification", "smallholder", "environment"]
+    },
+    {
+      "id": "int-vn-ag-veg-1",
+      "country": "Vietnam",
+      "province": "An Giang",
+      "valueChain": "Vegetables",
+      "title": "VietGAP Vegetable Certification Program – An Giang",
+      "summary": "Scale up VietGAP certification for vegetable producers in An Giang, targeting supermarket supply chains and export markets in ASEAN. Includes women farmer training centres, laboratory testing support, and digital certification management.",
+      "tags": ["VietGAP", "certification", "women empowerment", "ASEAN export"]
+    },
+    {
+      "id": "int-vn-ag-rice-1",
+      "country": "Vietnam",
+      "province": "An Giang",
+      "valueChain": "Premium Rice",
+      "title": "Premium Rice Brand Development and Market Access",
+      "summary": "Develop a regional premium rice brand for An Giang origin varieties (ST25, Jasmine) targeting high-value domestic and export markets. Includes IP protection, packaging innovation, direct retail partnerships, and smallholder cooperative strengthening.",
+      "tags": ["branding", "ST25", "cooperative", "IP protection", "export"]
+    },
+    {
+      "id": "int-vn-ag-rice-2",
+      "country": "Vietnam",
+      "province": "An Giang",
+      "valueChain": "Premium Rice",
+      "title": "Sustainable Rice Intensification and Emission Reduction",
+      "summary": "Scale alternate wetting and drying (AWD) practices and low-emission rice varieties across An Giang paddies, contributing to both carbon reduction and cost savings for farmers. Links with voluntary carbon market mechanisms for additional farmer income.",
+      "tags": ["AWD", "carbon market", "emission reduction", "climate finance"]
+    },
+    {
+      "id": "int-vn-ag-shrimp-1",
+      "country": "Vietnam",
+      "province": "An Giang",
+      "valueChain": "Shrimp",
+      "title": "Integrated Mangrove-Shrimp Aquaculture Model",
+      "summary": "Promote integrated mangrove-shrimp aquaculture in An Giang coastal zones to improve environmental sustainability and access premium eco-certified markets. Includes ASC certification pathways, mangrove restoration, and community-based management structures.",
+      "tags": ["mangrove", "ASC certification", "aquaculture", "eco-premium"]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-1",
+      "category": "Market Systems",
+      "title": "Strengthen Buyer-Farmer Linkages Across All Value Chains",
+      "bullets": [
+        "Map and engage anchor buyers in each value chain willing to commit to structured sourcing arrangements with smallholders",
+        "Facilitate multi-year supply agreements with quality-linked price premiums to incentivise farmer investment",
+        "Support digital market information platforms to provide real-time price transparency to farmers and producer groups",
+        "Establish grievance mechanisms for contract enforcement and dispute resolution"
+      ]
+    },
+    {
+      "id": "rec-2",
+      "category": "Finance & Investment",
+      "title": "Expand Access to Value Chain Finance for Smallholders",
+      "bullets": [
+        "Partner with MFIs and commercial banks to develop value chain finance products linked to purchase orders",
+        "Pilot warehouse receipt financing for commodities including cashews and premium rice",
+        "Design blended finance instruments to crowd in private sector investment in processing infrastructure",
+        "Integrate financial literacy training into all producer group support activities"
+      ]
+    },
+    {
+      "id": "rec-3",
+      "category": "Women's Economic Empowerment",
+      "title": "Mainstream WEE Across All Value Chain Interventions",
+      "bullets": [
+        "Conduct gender analysis for each value chain to identify key barriers and opportunities for women",
+        "Set minimum 40% women participation targets for all training and capacity building activities",
+        "Prioritise women-led producer groups and cooperatives in market linkage programs",
+        "Address time poverty constraints by co-locating services and providing childcare support at events",
+        "Track and report gender-disaggregated data across all outcome indicators"
+      ]
+    },
+    {
+      "id": "rec-4",
+      "category": "Green Growth",
+      "title": "Integrate Climate-Smart Agriculture and Environmental Standards",
+      "bullets": [
+        "Adopt climate risk screening for all new interventions and investments",
+        "Scale proven CSA practices including conservation tillage, integrated pest management, and water-efficient irrigation",
+        "Develop environmental compliance roadmaps for value chains with significant environmental footprints",
+        "Connect farmers to climate finance mechanisms including carbon credits and green bonds",
+        "Embed biodiversity considerations into certification and standards work"
+      ]
+    },
+    {
+      "id": "rec-5",
+      "category": "Systemic Change",
+      "title": "Engage Government and Policy for Enabling Environment",
+      "bullets": [
+        "Work with provincial governments to streamline business registration and certification processes",
+        "Advocate for improved rural infrastructure investment in roads, electricity, and telecommunications",
+        "Support development of national quality standards for priority commodities",
+        "Build government capacity for market monitoring and agricultural data systems",
+        "Engage national trade policy processes to improve export facilitation for smallholder products"
+      ]
+    },
+    {
+      "id": "rec-6",
+      "category": "Disability Inclusion",
+      "title": "Ensure Persons with Disabilities are Not Left Behind",
+      "bullets": [
+        "Conduct disability inclusion assessments for each target area and value chain",
+        "Adapt training materials and delivery methods to be accessible for persons with disabilities",
+        "Partner with DPOs (Disabled Persons Organisations) to reach and include PWD farmers",
+        "Track participation and outcomes for persons with disabilities as a disaggregated group",
+        "Ensure physical accessibility of any project-supported facilities and marketplaces"
+      ]
+    }
+  ],
+  "crossCutting": {
+    "sharedChallenge": {
+      "title": "Shared Challenge: Climate-Driven Market Volatility",
+      "description": "Across Cambodia (Kratie), Laos (Champasak), and Vietnam (An Giang), smallholder farmers in all targeted value chains face compounding challenges from climate change and market volatility. Irregular rainfall patterns disrupt planting calendars, post-harvest losses increase with temperature extremes, and price shocks cascade through thin rural markets. This cross-cutting challenge requires coordinated responses that build both climate resilience and market system stability simultaneously.",
+      "countries": ["Cambodia", "Laos", "Vietnam"],
+      "valueChains": ["Vegetables", "Cashews", "Premium Rice", "Livestock", "Shrimp", "Bananas"]
+    },
+    "designImplications": [
+      "Design interventions that address climate risk and market risk as interlinked, not siloed, challenges",
+      "Build early warning systems that integrate weather forecasting with market price information",
+      "Support index-based agricultural insurance to protect farmer income against climate shocks",
+      "Diversify value chain programming to reduce household dependence on single commodities",
+      "Invest in climate-resilient infrastructure (storage, irrigation, road access) as public goods enabling multiple value chains",
+      "Establish cross-country learning networks among producers, traders, and extensionists facing similar challenges",
+      "Ensure women and marginalised groups are central to climate adaptation planning, not afterthoughts",
+      "Align with national climate policies (NDCs) and green growth frameworks to leverage additional public finance"
+    ],
+    "crossCuttingThemes": [
+      {
+        "theme": "Digital Inclusion",
+        "description": "Digital tools (market apps, e-extension, digital payments) offer high leverage across all value chains but require attention to digital literacy and access gaps particularly among women and older farmers."
+      },
+      {
+        "theme": "Nutrition-Sensitive Agriculture",
+        "description": "Value chain interventions targeting vegetables, livestock, and rice have direct nutrition implications. Dietary diversity should be tracked alongside income metrics."
+      },
+      {
+        "theme": "Youth Engagement",
+        "description": "Rural youth are disengaging from agriculture due to poor returns and social status. Interventions that raise professionalism and profitability of farming can help reverse this trend."
+      }
+    ]
+  }
+}
