@@ -54,6 +54,11 @@ export interface CrossCuttingTheme {
   description: string;
 }
 
+export interface QualitativeFinding {
+  title: string;
+  text: string;
+}
+
 export interface SharedChallenge {
   title: string;
   description: string;
@@ -65,6 +70,7 @@ export interface CrossCutting {
   sharedChallenge: SharedChallenge;
   designImplications: string[];
   crossCuttingThemes: CrossCuttingTheme[];
+  qualitativeFindings: QualitativeFinding[];
 }
 
 export interface BasinData {

@@ -348,6 +348,20 @@
         "theme": "Youth Engagement",
         "description": "Rural youth are disengaging from agriculture due to poor returns and social status. Interventions that raise professionalism and profitability of farming can help reverse this trend."
       }
+    ],
+    "qualitativeFindings": [
+      {
+        "title": "Risk Stacking Across the Year",
+        "text": "Farmers consistently describe climate shocks and market shocks as compounding rather than separate risks, especially during planting and post-harvest windows. When weather disruptions reduce volume or quality, traders often tighten terms, which weakens farmer bargaining power and cash flow in the same period. This pattern suggests interventions should sequence resilience support and market coordination together, not as standalone activities."
+      },
+      {
+        "title": "Trust and Coordination Gaps",
+        "text": "Producer groups, local buyers, and service providers report weak trust in contract enforcement and quality verification. As a result, actors prefer short transactions even when longer-term agreements could improve investment and productivity. Program designs that include transparent grading, dispute channels, and shared performance metrics are likely to improve sustained coordination."
+      },
+      {
+        "title": "Inclusion Constraints Beyond Participation",
+        "text": "Women, youth, and persons with disabilities are often present in activities but remain underrepresented in commercial decision-making and asset access. Informants highlight mobility limits, time poverty, and digital access barriers as practical constraints that reduce uptake of higher-value opportunities. Stronger inclusion outcomes will require role-specific support such as accessible extension, flexible scheduling, and targeted market-facing leadership pathways."
+      }
     ]
   }
 }

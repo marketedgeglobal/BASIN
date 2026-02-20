@@ -5,7 +5,7 @@ interface CrossCuttingTabProps {
 }
 
 export default function CrossCuttingTab({ crossCutting }: CrossCuttingTabProps) {
-  const { sharedChallenge, designImplications, crossCuttingThemes } = crossCutting;
+  const { sharedChallenge, designImplications, crossCuttingThemes, qualitativeFindings } = crossCutting;
 
   return (
     <div className="space-y-6">
@@ -60,6 +60,21 @@ export default function CrossCuttingTab({ crossCutting }: CrossCuttingTabProps) 
               <h4 className="text-sm font-semibold text-blue-900 mb-2">{theme.theme}</h4>
               <p className="text-xs text-blue-800 leading-relaxed">{theme.description}</p>
             </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Qualitative Findings */}
+      <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+        <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-4">
+          Qualitative Findings
+        </h3>
+        <div className="space-y-3">
+          {qualitativeFindings.map((finding) => (
+            <article key={finding.title} className="border border-gray-100 rounded-lg p-4 bg-gray-50">
+              <h4 className="text-sm font-semibold text-gray-900 mb-1.5">{finding.title}</h4>
+              <p className="text-sm text-gray-700 leading-relaxed">{finding.text}</p>
+            </article>
           ))}
         </div>
       </div>
