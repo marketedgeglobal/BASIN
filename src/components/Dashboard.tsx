@@ -24,11 +24,21 @@ interface DashboardProps {
   filtered: ScorecardWithTotal[];
 }
 
-const BAR_COLORS = ['#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#ec4899', '#06b6d4', '#f97316'];
+const BAR_COLORS = ['#0284c7', '#0ea5e9', '#38bdf8', '#6366f1', '#818cf8', '#334155', '#64748b'];
 const BAND_COLORS: Record<string, string> = {
-  High: '#16a34a',
-  Medium: '#f59e0b',
-  Lower: '#ef4444',
+  High: '#0ea5e9',
+  Medium: '#6366f1',
+  Lower: '#fb7185',
+};
+
+const CHART_STYLES = {
+  grid: '#e2e8f0',
+  axis: '#475569',
+  tooltipBg: '#ffffff',
+  tooltipBorder: '#cbd5e1',
+  radarAverage: '#0284c7',
+  radarBest: '#6366f1',
+  barPrimary: '#0284c7',
 };
 
 function downloadFile(url: string, filename: string) {
@@ -285,19 +295,19 @@ export default function Dashboard({ filtered }: DashboardProps) {
           <div className="h-52" ref={bestChartRef}>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={chartData} margin={{ top: 5, right: 10, left: -20, bottom: 5 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+                <CartesianGrid strokeDasharray="3 3" stroke={CHART_STYLES.grid} />
                 <XAxis
                   dataKey="name"
-                  tick={{ fontSize: 11 }}
+                  tick={{ fontSize: 11, fill: CHART_STYLES.axis }}
                   interval={0}
                   angle={-30}
                   textAnchor="end"
                   height={55}
                 />
-                <YAxis tick={{ fontSize: 11 }} domain={[0, 30]} />
+                <YAxis tick={{ fontSize: 11, fill: CHART_STYLES.axis }} domain={[0, 30]} />
                 <Tooltip
                   formatter={(value: number) => [`${value} pts`, 'Weighted Points']}
-                  contentStyle={{ fontSize: 12 }}
+                  contentStyle={{ fontSize: 12, backgroundColor: CHART_STYLES.tooltipBg, border: `1px solid ${CHART_STYLES.tooltipBorder}` }}
                 />
                 <Bar dataKey="points" radius={[4, 4, 0, 0]}>
                   {chartData.map((entry, index) => (
@@ -334,13 +344,16 @@ export default function Dashboard({ filtered }: DashboardProps) {
             <div className="h-72" ref={radarChartRef}>
               <ResponsiveContainer width="100%" height="100%">
                 <RadarChart data={radarData} outerRadius="70%">
-                  <PolarGrid stroke="#e5e7eb" />
-                  <PolarAngleAxis dataKey="criterion" tick={{ fontSize: 11 }} />
-                  <PolarRadiusAxis angle={90} domain={[0, 100]} tick={{ fontSize: 10 }} />
-                  <Tooltip formatter={(value: number) => [`${value}`, 'Score']} />
+                  <PolarGrid stroke={CHART_STYLES.grid} />
+                  <PolarAngleAxis dataKey="criterion" tick={{ fontSize: 11, fill: CHART_STYLES.axis }} />
+                  <PolarRadiusAxis angle={90} domain={[0, 100]} tick={{ fontSize: 10, fill: CHART_STYLES.axis }} />
+                  <Tooltip
+                    formatter={(value: number) => [`${value}`, 'Score']}
+                    contentStyle={{ fontSize: 12, backgroundColor: CHART_STYLES.tooltipBg, border: `1px solid ${CHART_STYLES.tooltipBorder}` }}
+                  />
                   <Legend />
-                  <Radar name="Filtered average" dataKey="average" stroke="#2563eb" fill="#2563eb" fillOpacity={0.25} />
-                  <Radar name="Best match" dataKey="best" stroke="#16a34a" fill="#16a34a" fillOpacity={0.15} />
+                  <Radar name="Filtered average" dataKey="average" stroke={CHART_STYLES.radarAverage} fill={CHART_STYLES.radarAverage} fillOpacity={0.25} />
+                  <Radar name="Best match" dataKey="best" stroke={CHART_STYLES.radarBest} fill={CHART_STYLES.radarBest} fillOpacity={0.15} />
                 </RadarChart>
               </ResponsiveContainer>
             </div>
@@ -380,7 +393,10 @@ export default function Dashboard({ filtered }: DashboardProps) {
                       <Cell key={entry.name} fill={entry.fill} />
                     ))}
                   </Pie>
-                  <Tooltip formatter={(value: number) => [`${value}`, 'Entries']} />
+                  <Tooltip
+                    formatter={(value: number) => [`${value}`, 'Entries']}
+                    contentStyle={{ fontSize: 12, backgroundColor: CHART_STYLES.tooltipBg, border: `1px solid ${CHART_STYLES.tooltipBorder}` }}
+                  />
                 </PieChart>
               </ResponsiveContainer>
             </div>
@@ -409,16 +425,17 @@ export default function Dashboard({ filtered }: DashboardProps) {
           <div className="h-64" ref={countryChartRef}>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={countryData} margin={{ top: 5, right: 10, left: -20, bottom: 5 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
-                <XAxis dataKey="country" tick={{ fontSize: 12 }} />
-                <YAxis domain={[0, 100]} tick={{ fontSize: 11 }} />
+                <CartesianGrid strokeDasharray="3 3" stroke={CHART_STYLES.grid} />
+                <XAxis dataKey="country" tick={{ fontSize: 12, fill: CHART_STYLES.axis }} />
+                <YAxis domain={[0, 100]} tick={{ fontSize: 11, fill: CHART_STYLES.axis }} />
                 <Tooltip
                   formatter={(value: number, name: string, payload) => {
                     if (name === 'avgTotal') return [`${value}`, 'Avg total'];
                     return [`${payload?.payload?.entries ?? 0}`, 'Entries'];
                   }}
+                  contentStyle={{ fontSize: 12, backgroundColor: CHART_STYLES.tooltipBg, border: `1px solid ${CHART_STYLES.tooltipBorder}` }}
                 />
-                <Bar dataKey="avgTotal" fill="#3b82f6" radius={[6, 6, 0, 0]} />
+                <Bar dataKey="avgTotal" fill={CHART_STYLES.barPrimary} radius={[6, 6, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>

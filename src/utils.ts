@@ -57,10 +57,10 @@ export function filterScorecards(
 export function bandColor(band: ScorecardWithTotal['band']): string {
   switch (band) {
     case 'High':
-      return 'bg-green-100 text-green-800';
+      return 'bg-sky-100 text-sky-800';
     case 'Medium':
-      return 'bg-yellow-100 text-yellow-800';
+      return 'bg-indigo-100 text-indigo-800';
     case 'Lower':
-      return 'bg-red-100 text-red-800';
+      return 'bg-rose-100 text-rose-800';
   }
 }
