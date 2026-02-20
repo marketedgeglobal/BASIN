@@ -143,13 +143,23 @@ export default function App() {
               <Interventions
                 interventions={data.interventions}
                 country={country}
+                onCountryChange={setCountry}
                 province={province}
                 valueChain={valueChain}
+                onValueChainChange={setValueChain}
                 search={search}
               />
             )}
             {activeTab === 'recommendations' && (
-              <Recommendations recommendations={data.recommendations} />
+              <Recommendations
+                recommendations={data.recommendations}
+                interventions={data.interventions}
+                scorecards={allScorecards}
+                country={country}
+                valueChain={valueChain}
+                onCountryChange={setCountry}
+                onValueChainChange={setValueChain}
+              />
             )}
             {activeTab === 'crosscutting' && (
               <CrossCuttingTab crossCutting={data.crossCutting} />
